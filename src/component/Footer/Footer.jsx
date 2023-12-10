@@ -2,10 +2,10 @@ import React, { Component } from "react";
 
 class Footer extends Component {
   render() {
-    return <section>
-      <p>Esta web está hecha a partir de llamadas a la 
-        PokeApi</p>
-        <img src="../../public/pokeapi.png" alt="logo poke api" />
+    return <section id="footer-section">
+      <p id="footer-text">Esta web está hecha a partir de llamadas a la    
+        </p>
+        <img id="footer-image" src="/pokeapi.png" alt="logo poke api" />
       
 
     </section>;

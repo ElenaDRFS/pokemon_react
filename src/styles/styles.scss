@@ -1,0 +1,11 @@
+// importamos el sass de cada componente ya que este archivo está ya añadido en el main.jsx y por lo tanto será leído todo
+
+
+@import './components/Footer';
+@import './components/Card';
+@import './components/Header';
+@import './components/Lista';
+@import './components/Search';
+
+
+@import './views/App.scss';

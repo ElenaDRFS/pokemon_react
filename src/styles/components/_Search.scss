@@ -1,0 +1,42 @@
+@import url('https://fonts.cdnfonts.com/css/pokemon-solid');
+@import '../utils/variables.scss';
+
+
+form{
+
+    margin-top: 100px; 
+    
+
+    input{
+        border-radius: 10px;
+        text-align: center;
+        border: none;
+        margin-right: 5%;
+        padding: 3%;
+        font-size: large; 
+        color:blue;
+
+        &::placeholder{
+            color:blue
+
+        }
+        
+    }
+
+    button{
+        font-family: 'Pokemon Solid', sans-serif;
+        font-size: medium;
+        border-radius: 5px;
+        border-color: black;
+        padding: 2%;  
+        
+        &:hover{
+            background-color: $yellow;
+        padding: 3%;
+
+        }
+
+    }
+
+}
+

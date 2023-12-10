@@ -1,15 +1,14 @@
 import React from "react";
-import Nav from "./NAv"
+
 
 const Header = () => {
-  return <section>
-    <h1>PokeLens</h1>
-    <img src="../../public/logo.png" alt="foto logo pokemon"/>
-    
-    
+  return <header>
+   
+    <img src="/logo.png" alt="foto logo pokemon"/>
 
-    <Nav/>
-    </section>;
+    <h1>PokeLens</h1>
+  
+    </header>;
 };
 
 export default Header;
