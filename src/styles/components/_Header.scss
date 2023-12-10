@@ -1,0 +1,27 @@
+@import '../utils/variables.scss';
+@import url('https://fonts.cdnfonts.com/css/pokemon-solid');
+
+
+
+header{
+      
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+
+
+    h1{
+        font-family: 'Pokemon Solid', sans-serif;      
+        color:$yellow;
+        padding-top: 40px;
+        font-size: 90px;
+        font-style: oblique;
+        text-shadow: 0.2px 6px 10px darkblue;
+
+    }
+
+    img{
+        width: 350px;
+
+    }
+}

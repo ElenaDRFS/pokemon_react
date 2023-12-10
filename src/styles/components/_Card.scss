@@ -1,0 +1,52 @@
+@import '../utils/variables.scss';
+@import '../utils/mixins.scss';
+
+
+.card{
+    @include card;
+    @include fontColor;
+
+    .pokemon-info{
+
+
+        .pokemon-img{
+
+                width: 30vh;
+        }
+
+        .pokemon-name{
+            @include fontColor;
+            font-size: x-large;
+
+            .pokemon-id{
+
+                color:$red
+            }
+        }
+
+    }
+
+    .item-section{
+        
+        .span{
+            color:$yellow;
+    
+          
+        }
+    }
+
+   .type-p{
+    border: 2px dotted;
+    border-color: $yellow;
+    padding: 6%;
+    
+   }
+
+   .pokemon-exp{
+    color: yellow;
+    padding: 10%;
+    margin-top: 10%;
+   }
+   
+}
+

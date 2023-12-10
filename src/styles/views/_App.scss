@@ -1,0 +1,9 @@
+@import '../utils/variables.scss';
+
+#root {
+    text-align: center;
+    margin:0px;
+    min-height: 100vh;
+    font-family: 'Roboto Mono', monospace;      
+    background: linear-gradient(to bottom, $dark-grey, $grey);
+}
