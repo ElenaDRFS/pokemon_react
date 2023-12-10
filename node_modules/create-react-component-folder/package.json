@@ -1,0 +1,59 @@
+{
+  "name": "create-react-component-folder",
+  "version": "0.3.7",
+  "description": "Creates single react component folder structure",
+  "main": "./lib/index",
+  "readme": "README.md",
+  "engines": {
+    "npm": ">=5.2.0"
+  },
+  "scripts": {
+    "dev": "node ./lib/index",
+    "lint": "eslint lib bin --fix"
+  },
+  "keywords": [
+    "cli",
+    "scaffold",
+    "react",
+    "react-native",
+    "typescript",
+    "component",
+    "components",
+    "npm",
+    "crcf",
+    "create-react-app",
+    "create-react-component",
+    "create-react-component-folder"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/snaerth/create-react-component-folder"
+  },
+  "author": "Snær Seljan Þóroddsson",
+  "license": "MIT",
+  "devDependencies": {
+    "app-root-dir": "^1.0.2",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-react": "^7.21.5",
+    "prettier-eslint": "^9.0.2"
+  },
+  "bin": {
+    "create-react-component-folder": "./bin/create-react-component-folder.js",
+    "crcf": "./bin/crcf.js"
+  },
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "commander": "^5.1.0",
+    "cosmiconfig": "^6.0.0",
+    "fs": "0.0.1-security",
+    "handlebars": "^4.1.2",
+    "log-update": "^4.0.0",
+    "mkdirp": "^1.0.4",
+    "node-alias": "^1.0.4",
+    "prettier": "^2.2.1",
+    "semver": "^7.3.4"
+  }
+}
